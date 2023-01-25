@@ -19,12 +19,95 @@ body {
   font-family: "roboto", sans-serif;
 }
 .container {
-  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+}
+@media screen and (min-width:428px) {
+  
+  .container {
+    width:428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .container.main-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .hero{
+    background-color: var(--secondary-text-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../img/people-office\ 1.jpg);
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .hero-title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    display: none;
+  }
+  .section-item:not(:last-child)
+{
+  margin-bottom: 72px;
+}
+  .section-post-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: var(--secondary-text-color);
+}
+.section-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.section-list {
+  margin: 0;
+  padding: 0;
+}
+/*  work-section */
+.work-section {
+  padding-bottom: 96px;
+}
+}
+@media screen (min-width:428px){
+  
 }
 /* header */
 .header {
@@ -54,11 +137,11 @@ ul {
 }
 /* site nav */
 
-.main-header {
+/* .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 .header-list {
   display: flex;
   margin: 0;
@@ -122,7 +205,7 @@ ul {
   color: var(--accent-color);
 }
 /* hero */
-.hero {
+/* .hero {
   background-color: var(--secondary-text-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -137,8 +220,8 @@ ul {
   text-align: center;
   padding-top: 192px;
   padding-bottom: 192px;
-}
-.hero-title {
+} */
+/* .hero-title {
   margin-bottom: 48px;
   text-align: center;
   font-weight: 500;
@@ -146,7 +229,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
-}
+} */
 .hero-button {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -175,7 +258,7 @@ ul {
 }
 
 /* section and section team */
-.logo-icon {
+/* .logo-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,9 +310,9 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
   background: #f4f4fd;
-}
+} */
 /* section work and section team*/
-.work-section {
+/* .work-section {
   padding-bottom: 120px;
 }
 
@@ -303,9 +386,9 @@ ul {
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: #404bbf;
-}
+} */
 /* cutomers */
-.customers {
+/* .customers {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -343,10 +426,10 @@ ul {
 }
 
 .customers-item {
-}
+} */
 
 /* footer */
-.tail {
+/* .tail {
   color: #f4f4fd;
 }
 .footer {
@@ -407,7 +490,7 @@ ul {
   background-color: #31d0aa;
 }
 .footer-soc-icon {
-}
+} */
 /* subscribe form */
 .subscribe-form {
   display: flex;
@@ -671,7 +754,7 @@ ul {
 }
 
 /* portfolio */
-.portfolio-list {
+/* .portfolio-list {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -819,4 +902,4 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
+} */
