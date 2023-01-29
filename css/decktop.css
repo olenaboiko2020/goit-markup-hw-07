@@ -1,0 +1,86 @@
+@media screen and (min-width:1200px) {
+    .container{
+        width: 1200px;
+    }
+    .header-contacts {
+        display: flex;
+      }
+      /* section */
+      .logo-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        width: 264px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        background-color: #f4f4fd;
+      }
+      .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+      }
+      .section-list {
+        margin: 0;
+        margin-bottom: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+      
+        column-gap: 24px;
+      }
+      .section-item{
+        margin: 0;
+        
+        width: calc((100% - 72px)/4);
+      }
+      .section-post-title,
+.team-post-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.section-post-title{
+    text-align: left;
+}
+.section-text,
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* work secction */
+ .work-section {
+  padding-bottom: 120px;
+  display: block;
+}
+
+.work-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.work-item:not(:first-child) {
+    margin-left: 24px;
+  }
+  .work-title,
+  .team-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+  }
+  
+  .work-title,
+  .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+  }
+    }
