@@ -68,30 +68,31 @@ body {
   padding: 0;
   background-color: transparent;
   border: none;
-  padding-bottom: 48px;
-  padding-top: 48px;
 
+margin-left: auto;
 }
-.mob-menu {
+.mobmenu {
   position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
+ 
+  
   background-color: #ffffff;
-  padding-bottom: 48px;
-  padding-top: 48px;
 }
-.menu-container{
+  
+ 
+.mobmenu-container-menu{
 padding: 40px;
 width: 100%;
 height: 756px;
 }
 .menu-close {
-position: absolute;
-top: 40px;
-right: 40px;
+margin-left: auto;
   width: 24px;
   height: 24px;
+  margin-bottom: 16px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,9 +104,11 @@ right: 40px;
 .menu-close-icon {
 }
 .mob-menu-list {
-  margin-top: 80px;
+ padding: 0;
+ margin: 0;
 }
 .mob-menu-item {
+  margin-bottom: 40px;
 }
 .mob-nav-link {
   font-weight: 700;
@@ -119,20 +122,24 @@ letter-spacing: 0.02em;
 .current {
 }
 .mob-menu-contacts {
+  margin: 0;
+  padding: 0;
 }
 .contact-mob-menu {
+  margin-bottom: 48px;
 }
 .mob-menu-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
   text-decoration: none;
 }
 .mob-soc-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
   padding: 0;
 }
