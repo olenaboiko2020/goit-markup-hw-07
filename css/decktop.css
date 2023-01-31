@@ -1,9 +1,20 @@
 @media screen and (min-width:1200px) {
     .container{
-        width: 1200px;
+        width: 1128px;
     }
+    .logo{
+      margin-right: 72px;
+    }
+    .container.main-header {
+        display: flex;
+     
+      }
     .header-contacts {
         display: flex;
+margin-left: auto;
+      }
+      .contact-item:not(:first-child):not(:first-child){
+        margin-left: 40px;
       }
       /* section */
       .logo-icon {
@@ -47,6 +58,7 @@
 }
 .section-text,
 .team-text {
+    font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -83,4 +95,95 @@
     text-transform: capitalize;
     color: var(--secondary-text-color);
   }
+  /* customers */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: nowrap;
+  gap: 24px;
+    margin: 0;
+  }
+  .customers-link {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #8e8f99;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* footer */
+  .footer {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--secondary-text-color);
+  }
+  .footer-position {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+  }
+  .footer-social{
+    margin-left: 120px;
+    margin-right: 80px;
+  
+  }
+  .footer-social-name{
+    text-align: left;
+  }
+  .subscribe-form{
+    margin:0px;
+  }
+  .filing{
+    margin-right: 0px;
+    text-align: left;
+  }
+  .subscribe-button {
+ 
+    height: 40px;
+ 
+  }
+  .subscribe-input {
+   
+    margin-right: 24px;
+  margin-bottom: 0px;
+  }
+  /* portfoglio */
+  .portfolio-list {
+    padding-top: 96px;
+    padding-bottom: 120px;
+    
+    }
+  .button-list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 72px;
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content:center;
+    
+    column-gap: 24px;
+    }
+    .example-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 24px;
+        
+        row-gap: 72px;
+      }
+      .example-item {
+          margin: 0px;
+          width: calc((100% - 48px)/3);
+          border: 0.5px solid #e7e9fc;
+    
+      } 
     }
