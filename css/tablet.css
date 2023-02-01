@@ -133,6 +133,9 @@ url(../img/bg-tab-2x.jpg);}
         margin-bottom: 0;
       }
      /* team-section */
+     .team-title {
+        margin-bottom: 72px;
+        }
      .team-list {
       padding: 0;
       margin: 0;
