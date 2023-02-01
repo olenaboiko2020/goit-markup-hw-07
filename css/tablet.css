@@ -73,7 +73,7 @@
       .contact-link:hover,
       .contact-link:focus {
         color: var(--accent-color);
-      }/*  */
+      }
       /* hero */
       .hero-title {
         max-width: 500px;
@@ -87,6 +87,30 @@
         letter-spacing: 0.02em;
         color: var(--primary-white-color);
       }
+      .hero{
+        background-color: var(--secondary-text-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/bg-tab-1x.jpg);
+      max-width: 1440px;
+      background-position: center;
+      background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 112px;
+        padding-bottom: 112px;
+      }
+      @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+ .hero{background-image: linear-gradient(
+  rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)
+),
+url(../img/bg-tab-2x.jpg);}
+  }
      /* section */
     
       .section-list {
