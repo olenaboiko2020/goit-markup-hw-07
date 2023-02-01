@@ -168,8 +168,7 @@ display: block;
 }
 .mob-soc-list {
   display: flex;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 56px;
   padding: 0;
 }
 
