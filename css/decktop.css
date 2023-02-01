@@ -24,12 +24,13 @@ margin-left: auto;
           rgba(46, 47, 66, 0.7)
         ),
         url(../img/people-office\ 1.jpg);
-      max-width: 1440px;
+      
       background-position: center;
       background-repeat: no-repeat;
+        padding-top: 192px;
+        padding-bottom: 192px;
+        background-size: 1440px 600px;
         text-align: center;
-        padding-top: 112px;
-        padding-bottom: 112px;
       }
       @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
