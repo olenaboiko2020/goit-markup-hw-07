@@ -16,6 +16,13 @@ margin-left: auto;
       .contact-item:not(:first-child):not(:first-child){
         margin-left: 40px;
       }
+      .contact-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--primary-text-color);
+        text-decoration: none;
+      }
       /* hero */
       .hero{
         background-color: var(--secondary-text-color);
