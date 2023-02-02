@@ -1,6 +1,6 @@
 @media screen and (min-width:1200px) {
     .container{
-        width: 1128px;
+        width: 1158px;
     }
     .logo{
       margin-right: 72px;
@@ -29,7 +29,7 @@ margin-left: auto;
       background-repeat: no-repeat;
         padding-top: 192px;
         padding-bottom: 192px;
-        background-size: 1440px 600px;
+        background-size: cover;
         text-align: center;
       }
       @media (min-device-pixel-ratio: 2),
@@ -139,6 +139,10 @@ url(../img/bg-desktop-2x.jpg);}
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .customers>.container{
+    width: 1158px;
+    margin: auto;
+}
   .customers-list {
     display: flex;
     flex-wrap: nowrap;
