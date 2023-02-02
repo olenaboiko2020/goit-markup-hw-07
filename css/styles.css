@@ -197,7 +197,7 @@ background-image: linear-gradient(
     rgba(46, 47, 66, 0.7)
   ),
   url(../img/bg-mob-1x.jpg);
-max-width: 1440px;
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
   text-align: center;
